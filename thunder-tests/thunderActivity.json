@@ -1,0 +1,154 @@
+[
+  {
+    "_id": "433a7d71-088b-49ff-96fc-1b2d507e4824",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8000",
+    "url": "localhost:8000/getCampaigns",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-18T16:32:22.337Z",
+    "modified": "2022-11-19T13:47:19.492Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "image"
+        }
+      ],
+      "files": [
+        {
+          "name": "testImage",
+          "value": "..\\app-zocket\\src\\image\\cake1.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "49b5f8c0-241f-4bc7-a41e-d5793dda8ee4",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8000/upload",
+    "url": "localhost:8000/upload",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-18T16:32:49.411Z",
+    "modified": "2022-11-19T13:35:54.065Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "Chocolate Cake"
+        },
+        {
+          "name": "campaignName",
+          "value": "Chocolate Cake Campaign"
+        },
+        {
+          "name": "price",
+          "value": "2747"
+        }
+      ],
+      "files": [
+        {
+          "name": "testImage",
+          "value": "..\\..\\..\\..\\..\\Downloads\\choclatecakecampaign.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "d7573c0c-daa3-41dd-a453-eb86f9068538",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8000/campaigns",
+    "url": "localhost:8000/uploads",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-19T13:18:42.984Z",
+    "modified": "2022-11-19T13:23:01.709Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "campaignName",
+          "value": "Blueberry Cake Campaign"
+        },
+        {
+          "name": "location",
+          "value": "Kolkata"
+        },
+        {
+          "name": "platform",
+          "value": "FB"
+        },
+        {
+          "name": "budget",
+          "value": "2400"
+        }
+      ],
+      "files": [
+        {
+          "name": "testImage2",
+          "value": "..\\..\\..\\..\\..\\Downloads\\blueberrycakecampaign.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "2567bfc5-0e46-4460-9692-1d26ffefb1f4",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:8000/upload",
+    "url": "localhost:8000/createCampaign",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-19T13:23:14.584Z",
+    "modified": "2022-11-19T13:41:52.531Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "campaignName",
+          "value": "Cup Cake Campaign"
+        },
+        {
+          "name": "location",
+          "value": "Bangalore"
+        },
+        {
+          "name": "platform",
+          "value": "Google"
+        },
+        {
+          "name": "budget",
+          "value": "2910"
+        }
+      ],
+      "files": [
+        {
+          "name": "testImages",
+          "value": "..\\..\\..\\..\\..\\Downloads\\Ferrorochercampaign.png"
+        }
+      ]
+    },
+    "tests": []
+  }
+]
