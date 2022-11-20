@@ -13,6 +13,7 @@ const CampaignList = require('./models/campaignList');
 
 app.use(cors());
 app.use(bodyParser.json());
+app.use(express.json())
 
 //multer storage
 const storage = multer.diskStorage({
@@ -63,6 +64,8 @@ app.post('/createCampaign', upload.single('testImages'), (req, res, next) => {
         budget: req.body.budget,
         location: req.body.location,
         platform: req.body.platform,
+        startDate: req.body.startDate.getDate(),
+        endDate: req.body.endDate.getDate(),
         image:{
             data: fs.readFileSync("uploads/" + req.file.filename),
             contentType:"image/png"

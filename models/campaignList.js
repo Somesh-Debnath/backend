@@ -1,10 +1,8 @@
 const mongoose=require('mongoose');
 const campaignListSchema=mongoose.Schema({
     _id:mongoose.Schema.Types.ObjectId,
-    date: {
-        type: Date,
-        default: Date.now
-    },
+     startDate:Date,
+     endDate:Date,
     image:{
         contentType: String,
         data: Buffer,
